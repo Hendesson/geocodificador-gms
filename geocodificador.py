@@ -18,8 +18,8 @@ API_KEY = 'SUA API AQUI'
 gmaps = googlemaps.Client(key=API_KEY)
 
 # Caminho do arquivo e aba
-arquivo_excel = "C:/Users/08152439100/Downloads/bases_ICMBio_GRs - Copy (1).xlsx"
-aba = 'EscritóriosICMBio'
+arquivo_excel = "seu/caminho/aqui.xlsx"
+aba = 'aba_aqui'
 df = pd.read_excel(arquivo_excel, sheet_name=aba)
 
 # Função para preencher coordenadas
